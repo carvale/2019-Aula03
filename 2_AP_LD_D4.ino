@@ -53,5 +53,5 @@ void loop() {
       client.print(pagina);
   }
   
-  client.stop();
+  client.flush();
 }
