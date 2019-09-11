@@ -15,7 +15,7 @@
 
 // Definir o Trigger Pin
 
-#define TRIGGER_PIN D3
+#define TRIGGER_PIN D6
 
 const char *ssid = "******"; //Node do SSID a ser transmitido
 const char *password = "*****"; //Senha
