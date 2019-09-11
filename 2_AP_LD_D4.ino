@@ -1,6 +1,5 @@
 /*
   Conexão AP - Liga/Desliga Led D4
-  STATION - Conecta no AP
 */
 
 #include <ESP8266WiFi.h>
