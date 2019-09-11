@@ -15,7 +15,7 @@
 
 // Definir o Trigger Pin
 
-#define TRIGGER_PIN D6
+#define TRIGGER_PIN D3
 
 const char *ssid = "******"; //Node do SSID a ser transmitido
 const char *password = "*****"; //Senha
@@ -23,7 +23,7 @@ const char *password = "*****"; //Senha
 WiFiServer servidor(80);
 
 
-int pinDHT11 = D1; // Pino onte está conectado o DHT11
+int pinDHT11 = D6; // Pino onte está conectado o DHT11
 SimpleDHT11 dht11(pinDHT11);
 
 void setup() {
